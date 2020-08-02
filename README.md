@@ -23,6 +23,10 @@ The stack as a whole aims to be ***anti-fragile***: an increase in load will be 
 
 ## Where are the libraries?
 
+### Stay close to the metal
+
+JQuery was king, JS fatigue
+
 ### Node.JS and Rust
 
 ### Javascript and React
@@ -39,7 +43,7 @@ The stack as a whole aims to be ***anti-fragile***: an increase in load will be 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1MjI5NjkwLDg4NzE1OTc0MSwtOTc3ND
-U2NDI2LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMDQzNDA1OSwt
-MTg3NzU5NTI3NV19
+eyJoaXN0b3J5IjpbMjA3MzM4NzY5MSw1MTUyMjk2OTAsODg3MT
+U5NzQxLC05Nzc0NTY0MjYsODE3MzEwMDM2LDMzNjQwNzc5Nywt
+MjAwNDM0MDU5LC0xODc3NTk1Mjc1XX0=
 -->
