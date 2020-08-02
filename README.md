@@ -113,11 +113,15 @@ When I started working on scaling backends, around 7 years ago, the typical serv
 
 In general it's rarely worthwhile to scale up, as hardware prices grow much faster than capacity. If one has the choice he should always choose to scale out instead, leaving scaling up to yearly server updates that leverage the normal market evolution.
 
+### Unit Layout
+
+
+
 ### C10M problem with 300 euros per month
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODcwMjM1OSwtMTk5MzE2Mzc1MSw4Nj
+eyJoaXN0b3J5IjpbMTcwNjI3NTgzNiwtMTk5MzE2Mzc1MSw4Nj
 Y3ODE3NTYsNDI1ODQ3MDA4LC00OTgwNzc3ODIsMjA3MzM4NzY5
 MSw1MTUyMjk2OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYsODE3Mz
 EwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NTk1Mjc1
