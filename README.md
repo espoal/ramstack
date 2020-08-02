@@ -42,7 +42,7 @@ Having predictable performance is a feature, that need to be tested against in t
 
 Performance and availability are the one-two punch to gain trust with your customer. A website that is always working, and it's working fast, is a website with a good UX that people will want to use again.
 
-disaster recovery, business continuity, 
+disaster recovery, business continuity, self healing
 
 ### Business speed is crucial
 
@@ -144,10 +144,10 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjM5OTYxNiwxNDU0MjE3MTU3LDEwMz
-czNDI2OTcsMjk3NzkxODUyLC00MzE2NjAwODgsLTgzNjMwODM3
-NiwxNzA2Mjc1ODM2LC0xOTkzMTYzNzUxLDg2Njc4MTc1Niw0Mj
-U4NDcwMDgsLTQ5ODA3Nzc4MiwyMDczMzg3NjkxLDUxNTIyOTY5
-MCw4ODcxNTk3NDEsLTk3NzQ1NjQyNiw4MTczMTAwMzYsMzM2ND
-A3Nzk3LC0yMDA0MzQwNTksLTE4Nzc1OTUyNzVdfQ==
+eyJoaXN0b3J5IjpbLTE1ODkwODgzNTgsMTQ1NDIxNzE1NywxMD
+M3MzQyNjk3LDI5Nzc5MTg1MiwtNDMxNjYwMDg4LC04MzYzMDgz
+NzYsMTcwNjI3NTgzNiwtMTk5MzE2Mzc1MSw4NjY3ODE3NTYsND
+I1ODQ3MDA4LC00OTgwNzc3ODIsMjA3MzM4NzY5MSw1MTUyMjk2
+OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYsODE3MzEwMDM2LDMzNj
+QwNzc5NywtMjAwNDM0MDU5LC0xODc3NTk1Mjc1XX0=
 -->
