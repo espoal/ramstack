@@ -57,6 +57,8 @@ My idea is to move the load-balancer inside the client, hence the  _smart client
 
 
 
+
+
 ### Render Stack: a functional approach
 
 Functional programming has become popular in the Javascript world thanks to React, but is well suited to front end programming in general. Pure functions are functions that will always have the same output given an input, i.e. they do not depend on and do not have an internal state, thus allowing us to build easily testable components.  
@@ -113,8 +115,8 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1ODQ3MDA4LC00OTgwNzc3ODIsMjA3Mz
-M4NzY5MSw1MTUyMjk2OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYs
-ODE3MzEwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NT
-k1Mjc1XX0=
+eyJoaXN0b3J5IjpbODY2NzgxNzU2LDQyNTg0NzAwOCwtNDk4MD
+c3NzgyLDIwNzMzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0MSwt
+OTc3NDU2NDI2LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMDQzND
+A1OSwtMTg3NzU5NTI3NV19
 -->
