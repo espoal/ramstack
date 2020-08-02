@@ -1,16 +1,6 @@
 # RAMStack
-## TOC
-[Introduction](https://github.com/espoal/ramstack#introduction) 
 
-[Why RAMStack?](https://github.com/espoal/ramstack#why-ramstack) 
 
-[Where are the libraries?](https://github.com/espoal/ramstack#where-are-the-libraries) 
-
-[Frontend](https://github.com/espoal/ramstack#frontend) 
-
-[Backend](https://github.com/espoal/ramstack#backend) 
-
-[Hybrid Cloud](https://github.com/espoal/ramstack#hybrid-cloud) 
 
 
 ## Introduction
@@ -24,6 +14,19 @@ Ramstack is a collection of guidelines to build a full stack for web and natives
 The stack as a whole aims to be ***anti-fragile***: an increase in load will be met with an increase in reliability and availability, faults are used to adapt robustness thresholds, big data is at the center of future business decisions.
 
 One of the main ideas behind this stack is to move the load balancer and part of the cache in the client, thus creating a ***smart client***, decoupled from the frontend, to provide an offline-first experience and optimal performance. This can be seen as an evolution and extension of Google's PWA guidelines.
+
+## TOC
+[Introduction](https://github.com/espoal/ramstack#introduction) 
+
+[Why RAMStack?](https://github.com/espoal/ramstack#why-ramstack) 
+
+[Where are the libraries?](https://github.com/espoal/ramstack#where-are-the-libraries) 
+
+[Frontend](https://github.com/espoal/ramstack#frontend) 
+
+[Backend](https://github.com/espoal/ramstack#backend) 
+
+[Hybrid Cloud](https://github.com/espoal/ramstack#hybrid-cloud) 
 
 ## Why RAMStack?
 
@@ -135,7 +138,7 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDgwNDg1NiwxNzA2Mjc1ODM2LC0xOT
+eyJoaXN0b3J5IjpbLTgzNjMwODM3NiwxNzA2Mjc1ODM2LC0xOT
 kzMTYzNzUxLDg2Njc4MTc1Niw0MjU4NDcwMDgsLTQ5ODA3Nzc4
 MiwyMDczMzg3NjkxLDUxNTIyOTY5MCw4ODcxNTk3NDEsLTk3Nz
 Q1NjQyNiw4MTczMTAwMzYsMzM2NDA3Nzk3LC0yMDA0MzQwNTks
