@@ -21,8 +21,8 @@ One of the main ideas behind this stack is to move the load balancer and part of
  - [Why RAMStack?](https://github.com/espoal/ramstack#why-ramstack)  
  - [Where are the libraries?](https://github.com/espoal/ramstack#where-are-the-libraries)
  - [Frontend](https://github.com/espoal/ramstack#frontend) 
- - Backend](https://github.com/espoal/ramstack#backend)  [Hybrid
-   Cloud](https://github.com/espoal/ramstack#hybrid-cloud)
+ - [Backend](https://github.com/espoal/ramstack#backend)  
+ - [Hybrid Cloud](https://github.com/espoal/ramstack#hybrid-cloud)
 
 ## Why RAMStack?
 
@@ -134,9 +134,9 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1ODMyOTU2LC04MzYzMDgzNzYsMTcwNj
-I3NTgzNiwtMTk5MzE2Mzc1MSw4NjY3ODE3NTYsNDI1ODQ3MDA4
-LC00OTgwNzc3ODIsMjA3MzM4NzY5MSw1MTUyMjk2OTAsODg3MT
-U5NzQxLC05Nzc0NTY0MjYsODE3MzEwMDM2LDMzNjQwNzc5Nywt
-MjAwNDM0MDU5LC0xODc3NTk1Mjc1XX0=
+eyJoaXN0b3J5IjpbLTQzMTY2MDA4OCwtODM2MzA4Mzc2LDE3MD
+YyNzU4MzYsLTE5OTMxNjM3NTEsODY2NzgxNzU2LDQyNTg0NzAw
+OCwtNDk4MDc3NzgyLDIwNzMzODc2OTEsNTE1MjI5NjkwLDg4Nz
+E1OTc0MSwtOTc3NDU2NDI2LDgxNzMxMDAzNiwzMzY0MDc3OTcs
+LTIwMDQzNDA1OSwtMTg3NzU5NTI3NV19
 -->
