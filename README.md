@@ -23,9 +23,11 @@ Slow = unreachable = lost costumer
 
 ### Business speed is crucial
 
-rq
+requirements changes, and the tech should follow not drive
 
 ### Machine learning to the rescue
+
+Log monitoring, time series predictions, UX tracking.
 
 ## Where are the libraries?
 
@@ -51,7 +53,7 @@ JQuery was king, JS fatigue
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjgzOTcxMiwyMDczMzg3NjkxLDUxNT
+eyJoaXN0b3J5IjpbLTYwMDc4MDM4MywyMDczMzg3NjkxLDUxNT
 IyOTY5MCw4ODcxNTk3NDEsLTk3NzQ1NjQyNiw4MTczMTAwMzYs
 MzM2NDA3Nzk3LC0yMDA0MzQwNTksLTE4Nzc1OTUyNzVdfQ==
 -->
