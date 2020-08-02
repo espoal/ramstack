@@ -11,11 +11,19 @@ The stack as a whole aims to be *anti-fragile*: an increase in load will be met 
 
 ## Why RAMStack?
 
+### Performance is a feature
+
 ### Availability means trust
 
-### Speed is a feature
+### Business speed is crucial
+
+
 
 ## Where are the libraries?
+
+### Node.JS and Rust
+
+### Javascript and React
 
 ## Frontend
 
@@ -25,7 +33,7 @@ The stack as a whole aims to be *anti-fragile*: an increase in load will be met 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDA0NzE4MCwtOTc3NDU2NDI2LDgxNz
+eyJoaXN0b3J5IjpbMTkyMjk0MzY4NywtOTc3NDU2NDI2LDgxNz
 MxMDAzNiwzMzY0MDc3OTcsLTIwMDQzNDA1OSwtMTg3NzU5NTI3
 NV19
 -->
