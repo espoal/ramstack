@@ -28,6 +28,7 @@ One of the main ideas behind this stack is to move the load balancer and part of
 
 ### Performance is a feature
 
+Performance is the ability to render content and be interactive on the client side, and the ability to fulfill HTTP 
 
 Let's say that from the monitoring tools during the month of December you had a 99.9% up-time and 99% of your HTTP request were acknowledged within 100 ms, with an average of 50 ms. It might look good,  
 
@@ -35,7 +36,6 @@ Let's say that from the monitoring tools during the month of December you had a 
 
 ### Availability means trust
 
-Slow = unreachable = lost costumer
 
 ### Business speed is crucial
 
@@ -137,10 +137,10 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODk4NjEsMTAzNzM0MjY5NywyOTc3OT
-E4NTIsLTQzMTY2MDA4OCwtODM2MzA4Mzc2LDE3MDYyNzU4MzYs
-LTE5OTMxNjM3NTEsODY2NzgxNzU2LDQyNTg0NzAwOCwtNDk4MD
-c3NzgyLDIwNzMzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0MSwt
-OTc3NDU2NDI2LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMDQzND
-A1OSwtMTg3NzU5NTI3NV19
+eyJoaXN0b3J5IjpbLTM5NzI4NTU0LDEwMzczNDI2OTcsMjk3Nz
+kxODUyLC00MzE2NjAwODgsLTgzNjMwODM3NiwxNzA2Mjc1ODM2
+LC0xOTkzMTYzNzUxLDg2Njc4MTc1Niw0MjU4NDcwMDgsLTQ5OD
+A3Nzc4MiwyMDczMzg3NjkxLDUxNTIyOTY5MCw4ODcxNTk3NDEs
+LTk3NzQ1NjQyNiw4MTczMTAwMzYsMzM2NDA3Nzk3LC0yMDA0Mz
+QwNTksLTE4Nzc1OTUyNzVdfQ==
 -->
