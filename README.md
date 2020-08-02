@@ -8,11 +8,11 @@ Ramstack is a collection of guidelines to build a full stack for web and natives
  - *Maintainability*: Fixing bugs and adding new features should be easy. Developers can use any tool they prefer and it's easy to adapt to changing business requirements.
  -  *Speed*:
 
-The stack as whole aims to be anti-fragile: an increase in load will be met with an increase in reliability and availability, 
+The stack as whole aims to be *anti-fragile*: an increase in load will be met with an increase in reliability and availability, 
 
 ## Why RAMStack?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY4NTEyMjksLTk3NzQ1NjQyNiw4MT
-czMTAwMzYsMzM2NDA3Nzk3LC0yMDA0MzQwNTksLTE4Nzc1OTUy
-NzVdfQ==
+eyJoaXN0b3J5IjpbMzgwOTcyMjksLTk3NzQ1NjQyNiw4MTczMT
+AwMzYsMzM2NDA3Nzk3LC0yMDA0MzQwNTksLTE4Nzc1OTUyNzVd
+fQ==
 -->
