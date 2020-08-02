@@ -7,8 +7,8 @@ Ramstack is a collection of guidelines to build a full stack for web and natives
  - *Availability*:  
  - *Maintainability*: Fixing bugs and adding new features should be easy. Developers can use any tool they prefer and  
 
-The stack as whole 
+The stack as whole aims to be anti-fragile: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODA0OTM0NSwzMzY0MDc3OTcsLTIwMD
-QzNDA1OSwtMTg3NzU5NTI3NV19
+eyJoaXN0b3J5IjpbLTE4NjQzNzYwMDIsMzM2NDA3Nzk3LC0yMD
+A0MzQwNTksLTE4Nzc1OTUyNzVdfQ==
 -->
