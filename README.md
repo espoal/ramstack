@@ -49,7 +49,7 @@ Scalability and performance
 
 ## Frontend
 
-
+![enter image description here](https://raw.githubusercontent.com/espoal/ramstack/master/assets/back_front.svg)
 
 ### Smart Client, Fetch patching and HTTP 304
 
@@ -117,7 +117,7 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTMwNjg2OCwtMTk5MzE2Mzc1MSw4Nj
+eyJoaXN0b3J5IjpbMTQ3ODcwMjM1OSwtMTk5MzE2Mzc1MSw4Nj
 Y3ODE3NTYsNDI1ODQ3MDA4LC00OTgwNzc3ODIsMjA3MzM4NzY5
 MSw1MTUyMjk2OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYsODE3Mz
 EwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NTk1Mjc1
