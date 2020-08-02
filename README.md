@@ -32,9 +32,9 @@ Key performance metrics are time to render and time to interactive on the client
 
 Let's say that from the monitoring tools during the month of December you had a 99.9% up-time and 99% of your HTTP request were acknowledged within 100 ms, with an average of 50 ms. It might look good, or it might be a **disaster**. 
 
-How so? 0.1% unplanned downtime in a month are 43 minutes. Maybe your average response time is a healthy 20 ms, but during those 43 minutes it spiked to hundreds of ms, with 1% or your monthly traffic experiencing a very poor service. 
+How so? 0.1% unplanned downtime in a month are 43 minutes. Maybe your average response time is a healthy 20 ms, but during those 43 minutes it spiked to hundreds of ms, timing out many connections and with 1% or your monthly traffic experiencing a very poor service. 
 
-Imagine if these 43 minutes were right after the TV commercial your company decided to air, as a test
+Imagine if these 43 minutes were right after the TV commercial your company decided to air, as a test. Thousands of new potential customers will never try your services again, because their first exposure has been abysmal.
 
 ### Availability means trust
 
@@ -139,7 +139,7 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzUzODI1NzIsMTAzNzM0MjY5NywyOT
+eyJoaXN0b3J5IjpbLTE1NjMwNTY0MzIsMTAzNzM0MjY5NywyOT
 c3OTE4NTIsLTQzMTY2MDA4OCwtODM2MzA4Mzc2LDE3MDYyNzU4
 MzYsLTE5OTMxNjM3NTEsODY2NzgxNzU2LDQyNTg0NzAwOCwtND
 k4MDc3NzgyLDIwNzMzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0
