@@ -40,7 +40,9 @@ Having predictable performance is a feature, that need to be tested against in t
 
 ### Availability means trust
 
-Performance and availability are the one-two punch to driv
+Performance and availability are the one-two punch to gain trust with your customer. A website that is always working, and it's working fast, is a website with a good UX that people will want to use again.
+
+disaster re
 
 ### Business speed is crucial
 
@@ -142,7 +144,7 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODIxNTU5NCwxNDU0MjE3MTU3LDEwMz
+eyJoaXN0b3J5IjpbMTQ3MTc3NzcxNCwxNDU0MjE3MTU3LDEwMz
 czNDI2OTcsMjk3NzkxODUyLC00MzE2NjAwODgsLTgzNjMwODM3
 NiwxNzA2Mjc1ODM2LC0xOTkzMTYzNzUxLDg2Njc4MTc1Niw0Mj
 U4NDcwMDgsLTQ5ODA3Nzc4MiwyMDczMzg3NjkxLDUxNTIyOTY5
