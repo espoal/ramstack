@@ -9,6 +9,8 @@ Ramstack is a collection of guidelines to build a full stack for web and natives
 
 The stack as a whole aims to be ***anti-fragile***: an increase in load will be met with an increase in reliability and availability, faults are used to adapt robustness thresholds, big data is the center of future business decisions.
 
+
+
 ## Why RAMStack?
 
 ### Performance is a feature
@@ -33,11 +35,11 @@ The stack as a whole aims to be ***anti-fragile***: an increase in load will be 
 
 ## Hybrid Cloud
 
-### C10M problem with 300 euros
+### C10M problem with 300 euros per month
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDAxNzkyMzcsODg3MTU5NzQxLC05Nz
-c0NTY0MjYsODE3MzEwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5
-LC0xODc3NTk1Mjc1XX0=
+eyJoaXN0b3J5IjpbNTE1MjI5NjkwLDg4NzE1OTc0MSwtOTc3ND
+U2NDI2LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMDQzNDA1OSwt
+MTg3NzU5NTI3NV19
 -->
