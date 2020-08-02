@@ -55,6 +55,8 @@ The traditional way to scale web services is to use load-balancers and caches. T
 
 My idea is to move the load-balancer inside the client, hence the  _smart client_  name, exploiting Service Worker capabilities to patch fetch requests and reroute them to cache, if possible, or to the best endpoint according to latency and load. Here's a flow diagram of how requests are handled:
 
+
+
 ### Render Stack: a functional approach
 
 Functional programming has become popular in the Javascript world thanks to React, but is well suited to front end programming in general. Pure functions are functions that will always have the same output given an input, i.e. they do not depend on and do not have an internal state, thus allowing us to build easily testable components.  
@@ -72,6 +74,20 @@ Since render is a pure function that depends only on the state, we can bootstrap
 In case of an event (URL change, form submission, ....) a new state is generated using an event handler. Again we are using an async iterator because there might be multiple long requests, and we don't want to wait for all of them to complete before we can start rendering. The conciliate function is responsible for updating the state, maybe using a diffing algorithm, and then pass the result to the render function that can surgically update the changed components.  
 
 The render is itself an async iterator, so it can yield to the main thread between updates, even if they are the result of a single event, allowing for a 60 fps experience even on resource constrained devices.
+
+#### User Segmentation
+
+It's important to segment our user base according to their browser capabilities, optimally by sniffing the request headers or by using conditional imports:
+
+-   Shared Worker: Browsers that support sharing threads across tabs. Roughly 33% of the market.
+-   Service Worker: Browsers that support patching fetch requests inside a service worker. Cross-tab communication resource sharing can be achieved using IndexedDB. Roughly 60% of the market.
+-   No Javascript: In case a browser doesn't fall in the previous two categories, we can provide a JS-less experience, with pages rendered server-side. A lot of functionalities usually achieved through JS can be done in  [CSS instead](https://github.com/you-dont-need/You-Dont-Need-JavaScript), making the page much faster for every user. This work can also be used to bootstrap a Google AMP implementation.
+
+Other features useful to segment the user base are:
+
+-   ECMAScript support: Usually developers use Babel to compile the code to the minimum common denominator, thus creating huge and bloated Javascript files.
+-   Compression support: Brotli is a new compression algorithm, which is much better.
+-   Media support: Even though the web seems to be converging toward WebP, it's useful the differentiate media support and serve only the best format at the optimal resolution.
 
 ## Backend
 
@@ -97,8 +113,8 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTE0NTc0NCwtNDk4MDc3NzgyLDIwNz
-MzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0MSwtOTc3NDU2NDI2
-LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMDQzNDA1OSwtMTg3Nz
-U5NTI3NV19
+eyJoaXN0b3J5IjpbNDI1ODQ3MDA4LC00OTgwNzc3ODIsMjA3Mz
+M4NzY5MSw1MTUyMjk2OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYs
+ODE3MzEwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NT
+k1Mjc1XX0=
 -->
