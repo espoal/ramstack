@@ -30,11 +30,11 @@ One of the main ideas behind this stack is to move the load balancer and part of
 
 Key performance metrics are time to render and time to interactive on the client side, and the average HTTP response time on the backend. These metrics should always be measured at a given load, because resource congestion is the main source of performance pitfalls.
 
-Let's say that from the monitoring tools during the month of December you had a 99.9% up-time and 99% of your HTTP request were acknowledged within 100 ms, with an average of 50 ms. It might look good, or it might be a **disaster**. How so? 0.1% unplanned downtime in a month are 43 minutes, which are not good enough if they all are right after the TV commercial your company decided to air.
+Let's say that from the monitoring tools during the month of December you had a 99.9% up-time and 99% of your HTTP request were acknowledged within 100 ms, with an average of 50 ms. It might look good, or it might be a **disaster**. 
 
-Maybe your average response time is a healthy 20 ms, but during those 43 minutes it spiked to hundreds of ms, with 1% or your monthly traffic experiencing a very poor service. 
+How so? 0.1% unplanned downtime in a month are 43 minutes. Maybe your average response time is a healthy 20 ms, but during those 43 minutes it spiked to hundreds of ms, with 1% or your monthly traffic experiencing a very poor service. 
 
-99% 100 ms, 99.9% availability = Disaster
+Imagine if these 43 minutes were right after the TV commercial your company decided to air, as a test
 
 ### Availability means trust
 
@@ -139,7 +139,7 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDEzMDg5NjAsMTAzNzM0MjY5NywyOT
+eyJoaXN0b3J5IjpbLTEzNzUzODI1NzIsMTAzNzM0MjY5NywyOT
 c3OTE4NTIsLTQzMTY2MDA4OCwtODM2MzA4Mzc2LDE3MDYyNzU4
 MzYsLTE5OTMxNjM3NTEsODY2NzgxNzU2LDQyNTg0NzAwOCwtND
 k4MDc3NzgyLDIwNzMzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0
