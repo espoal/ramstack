@@ -35,15 +35,15 @@ Log monitoring, time series predictions, UX tracking.
 
 JQuery was king, JS fatigue
 
-### Node.JS and Rust
+### Backend: Node.JS and Rust
 
 rapid prototyping vs performance and safety
 
-### Javascript and React
+### Frontend: Javascript and React
 
 The frontend bread and butter
 
-### MongoDB and Redis
+### Databases: MongoDB and Redis
 
 Scalability and performance
 
@@ -77,8 +77,8 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1MTcyODU0LC00OTgwNzc3ODIsMjA3Mz
-M4NzY5MSw1MTUyMjk2OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYs
-ODE3MzEwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NT
-k1Mjc1XX0=
+eyJoaXN0b3J5IjpbMTM0NjY3MDIyNiwtNDk4MDc3NzgyLDIwNz
+MzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0MSwtOTc3NDU2NDI2
+LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMDQzNDA1OSwtMTg3Nz
+U5NTI3NV19
 -->
