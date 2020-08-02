@@ -11,7 +11,9 @@ The stack as a whole aims to be *anti-fragile*: an increase in load will be met 
 
 ## Why RAMStack?
 
-###
+### Availability means trust
+
+### Speed is a feature
 
 ## Where are the libraries?
 
@@ -23,7 +25,7 @@ The stack as a whole aims to be *anti-fragile*: an increase in load will be met 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQzNTcxOCwtOTc3NDU2NDI2LDgxNz
+eyJoaXN0b3J5IjpbLTM5MDA0NzE4MCwtOTc3NDU2NDI2LDgxNz
 MxMDAzNiwzMzY0MDc3OTcsLTIwMDQzNDA1OSwtMTg3NzU5NTI3
 NV19
 -->
