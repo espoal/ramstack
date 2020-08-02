@@ -55,7 +55,23 @@ The traditional way to scale web services is to use load-balancers and caches. T
 
 My idea is to move the load-balancer inside the client, hence the  _smart client_  name, exploiting Service Worker capabilities to patch fetch requests and reroute them to cache, if possible, or to the best endpoint according to latency and load. Here's a flow diagram of how requests are handled:
 
-### Render Stack
+### Render Stack: a functional approach
+
+Functional programming has become popular in the Javascript world thanks to React, but is well suited to front end programming in general. Pure functions are functions that will always have the same output given an input, i.e. they do not depend on and do not have an internal state, thus allowing us to build easily testable components.  
+
+Another advantage of pure functions is that they pair very well with caches. Given a cached state, I can easily hydrate it by running a render function, compared to OOP where you have to patch the internal state of Objects, leading to many mistakes.  
+
+The render loop could be something like:
+
+```
+Insert Render loop
+```
+
+Since render is a pure function that depends only on the state, we can bootstrap the DOM by using a default and then stream the result. We are using an async iterator so that we don't have to wait for the function to complete, instead we can serve the content as soon as it's ready, for example by loading the head tag as soon as possible we can start prefetching scripts, CSS and images.  
+
+In case of an event (URL change, form submission, ....) a new state is generated using an event handler. Again we are using an async iterator because there might be multiple long requests, and we don't want to wait for all of them to complete before we can start rendering. The conciliate function is responsible for updating the state, maybe using a diffing algorithm, and then pass the result to the render function that can surgically update the changed components.  
+
+The render is itself an async iterator, so it can yield to the main thread between updates, even if they are the result of a single event, allowing for a 60 fps experience even on resource constrained devices.
 
 ## Backend
 
@@ -81,8 +97,8 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyNTc5MDk4LC00OTgwNzc3ODIsMjA3Mz
-M4NzY5MSw1MTUyMjk2OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYs
-ODE3MzEwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NT
-k1Mjc1XX0=
+eyJoaXN0b3J5IjpbMjA3MTE0NTc0NCwtNDk4MDc3NzgyLDIwNz
+MzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0MSwtOTc3NDU2NDI2
+LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMDQzNDA1OSwtMTg3Nz
+U5NTI3NV19
 -->
