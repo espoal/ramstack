@@ -19,7 +19,11 @@ One of the main ideas behind this stack is to move the load balancer and part of
 
 ### Availability means trust
 
+Slow = unreachable = lost costumer
+
 ### Business speed is crucial
+
+rq
 
 ### Machine learning to the rescue
 
@@ -30,6 +34,8 @@ One of the main ideas behind this stack is to move the load balancer and part of
 JQuery was king, JS fatigue
 
 ### Node.JS and Rust
+
+
 
 ### Javascript and React
 
@@ -45,7 +51,7 @@ JQuery was king, JS fatigue
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwMzUxMDYsMjA3MzM4NzY5MSw1MTUyMj
-k2OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYsODE3MzEwMDM2LDMz
-NjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NTk1Mjc1XX0=
+eyJoaXN0b3J5IjpbLTM0MjgzOTcxMiwyMDczMzg3NjkxLDUxNT
+IyOTY5MCw4ODcxNTk3NDEsLTk3NzQ1NjQyNiw4MTczMTAwMzYs
+MzM2NDA3Nzk3LC0yMDA0MzQwNTksLTE4Nzc1OTUyNzVdfQ==
 -->
