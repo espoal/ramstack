@@ -49,6 +49,8 @@ Scalability and performance
 
 ## Frontend
 
+
+
 ### Smart Client, Fetch patching and HTTP 304
 
 The traditional way to scale web services is to use load-balancers and caches. Typically once a single server can't handle anymore the work, the domain will be rerouted to a service whose sole purpose is to spread the load, locally or over the network. Common examples are Nginx in a reverse proxy configuration, HAproxy, or dedicated hardware solutions.
@@ -93,7 +95,7 @@ Other features useful to segment the user base are:
 
 ## Backend
 
-
+![enter image description here](https://raw.githubusercontent.com/espoal/ramstack/master/assets/fetch_flow_backend.png)
 
 ## Hybrid Cloud
 
@@ -115,8 +117,9 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMxNjM3NTEsODY2NzgxNzU2LDQyNT
-g0NzAwOCwtNDk4MDc3NzgyLDIwNzMzODc2OTEsNTE1MjI5Njkw
-LDg4NzE1OTc0MSwtOTc3NDU2NDI2LDgxNzMxMDAzNiwzMzY0MD
-c3OTcsLTIwMDQzNDA1OSwtMTg3NzU5NTI3NV19
+eyJoaXN0b3J5IjpbMTkwMTMwNjg2OCwtMTk5MzE2Mzc1MSw4Nj
+Y3ODE3NTYsNDI1ODQ3MDA4LC00OTgwNzc3ODIsMjA3MzM4NzY5
+MSw1MTUyMjk2OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYsODE3Mz
+EwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NTk1Mjc1
+XX0=
 -->
