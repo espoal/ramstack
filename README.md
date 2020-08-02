@@ -15,17 +15,12 @@ The stack as a whole aims to be ***anti-fragile***: an increase in load will be 
 
 One of the main ideas behind this stack is to move the load balancer and part of the cache in the client, thus creating a ***smart client***, decoupled from the frontend, to provide an offline-first experience and optimal performance. This can be seen as an evolution and extension of Google's PWA guidelines.
 
-## TOC
+## Table of Content
 [Introduction](https://github.com/espoal/ramstack#introduction) 
-
 [Why RAMStack?](https://github.com/espoal/ramstack#why-ramstack) 
-
 [Where are the libraries?](https://github.com/espoal/ramstack#where-are-the-libraries) 
-
 [Frontend](https://github.com/espoal/ramstack#frontend) 
-
 [Backend](https://github.com/espoal/ramstack#backend) 
-
 [Hybrid Cloud](https://github.com/espoal/ramstack#hybrid-cloud) 
 
 ## Why RAMStack?
@@ -138,9 +133,9 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODk1NzQ1ODQsLTgzNjMwODM3NiwxNz
-A2Mjc1ODM2LC0xOTkzMTYzNzUxLDg2Njc4MTc1Niw0MjU4NDcw
-MDgsLTQ5ODA3Nzc4MiwyMDczMzg3NjkxLDUxNTIyOTY5MCw4OD
-cxNTk3NDEsLTk3NzQ1NjQyNiw4MTczMTAwMzYsMzM2NDA3Nzk3
-LC0yMDA0MzQwNTksLTE4Nzc1OTUyNzVdfQ==
+eyJoaXN0b3J5IjpbMTQyMjAwNDY5MiwtODM2MzA4Mzc2LDE3MD
+YyNzU4MzYsLTE5OTMxNjM3NTEsODY2NzgxNzU2LDQyNTg0NzAw
+OCwtNDk4MDc3NzgyLDIwNzMzODc2OTEsNTE1MjI5NjkwLDg4Nz
+E1OTc0MSwtOTc3NDU2NDI2LDgxNzMxMDAzNiwzMzY0MDc3OTcs
+LTIwMDQzNDA1OSwtMTg3NzU5NTI3NV19
 -->
