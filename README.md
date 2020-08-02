@@ -28,7 +28,7 @@ One of the main ideas behind this stack is to move the load balancer and part of
 
 ### Performance is a feature
 
-Key performance metrics are time to render and time to interactive on the client side, and the averag
+Key performance metrics are time to render and time to interactive on the client side, and the average HTTP response time on the backend. These metrics should always be measured at a given load, because resource congestion is the main source of performance pitfalls.
 
 Let's say that from the monitoring tools during the month of December you had a 99.9% up-time and 99% of your HTTP request were acknowledged within 100 ms, with an average of 50 ms. It might look good,  
 
@@ -137,7 +137,7 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTYwMDIyNTcsMTAzNzM0MjY5NywyOT
+eyJoaXN0b3J5IjpbLTEwNzA0NDMxNzgsMTAzNzM0MjY5NywyOT
 c3OTE4NTIsLTQzMTY2MDA4OCwtODM2MzA4Mzc2LDE3MDYyNzU4
 MzYsLTE5OTMxNjM3NTEsODY2NzgxNzU2LDQyNTg0NzAwOCwtND
 k4MDc3NzgyLDIwNzMzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0
