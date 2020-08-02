@@ -29,6 +29,7 @@ One of the main ideas behind this stack is to move the load balancer and part of
 ### Performance is a feature
 
 
+Let's say that from the monitoring tools 
 
 99% 100 ms, 99.9% availability = Disaster
 
@@ -136,9 +137,10 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3NzkxODUyLC00MzE2NjAwODgsLTgzNj
-MwODM3NiwxNzA2Mjc1ODM2LC0xOTkzMTYzNzUxLDg2Njc4MTc1
-Niw0MjU4NDcwMDgsLTQ5ODA3Nzc4MiwyMDczMzg3NjkxLDUxNT
-IyOTY5MCw4ODcxNTk3NDEsLTk3NzQ1NjQyNiw4MTczMTAwMzYs
-MzM2NDA3Nzk3LC0yMDA0MzQwNTksLTE4Nzc1OTUyNzVdfQ==
+eyJoaXN0b3J5IjpbMTAzNzM0MjY5NywyOTc3OTE4NTIsLTQzMT
+Y2MDA4OCwtODM2MzA4Mzc2LDE3MDYyNzU4MzYsLTE5OTMxNjM3
+NTEsODY2NzgxNzU2LDQyNTg0NzAwOCwtNDk4MDc3NzgyLDIwNz
+MzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0MSwtOTc3NDU2NDI2
+LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMDQzNDA1OSwtMTg3Nz
+U5NTI3NV19
 -->
