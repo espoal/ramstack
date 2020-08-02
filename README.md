@@ -9,11 +9,13 @@ Ramstack is a collection of guidelines to build a full stack for web and natives
 
 The stack as a whole aims to be ***anti-fragile***: an increase in load will be met with an increase in reliability and availability, faults are used to adapt robustness thresholds, big data is the center of future business decisions.
 
-One of the main ideas behind this stack is to move the load balancer and part of the cache in the client, thus creating a ***smart client***, decoupled from the frontend, to provide an offline-first experience . This can be seen as an extension of Google's PWA
+One of the main ideas behind this stack is to move the load balancer and part of the cache in the client, thus creating a ***smart client***, decoupled from the frontend, to provide an offline-first experience and optimal performance. This can be seen as an extension of Google's PWA guidelines.
 
 ## Why RAMStack?
 
 ### Performance is a feature
+
+99% 100 ms, 99.9% availability = Disaster
 
 ### Availability means trust
 
@@ -43,7 +45,7 @@ JQuery was king, JS fatigue
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg4MjE2NDksMjA3MzM4NzY5MSw1MT
-UyMjk2OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYsODE3MzEwMDM2
-LDMzNjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NTk1Mjc1XX0=
+eyJoaXN0b3J5IjpbOTgwMzUxMDYsMjA3MzM4NzY5MSw1MTUyMj
+k2OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYsODE3MzEwMDM2LDMz
+NjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NTk1Mjc1XX0=
 -->
