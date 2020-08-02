@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Ramstack is a collection of guidelines to build a full stack for web and natives apps, with the following characteristics:
+RAMStack is a collection of guidelines to build a full stack for web and natives apps, with the following characteristics:
 
  - ***Reliability***: The app is predictable, in correctness and performance, even in the presence of errors. The stack is capable of self-healing hardware and software faults.
  - ***Availability***:  The app is capable of overcoming faults in the stack and keep functioning, eventually returning to a consistent state. 
@@ -138,9 +138,9 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjMwODM3NiwxNzA2Mjc1ODM2LC0xOT
-kzMTYzNzUxLDg2Njc4MTc1Niw0MjU4NDcwMDgsLTQ5ODA3Nzc4
-MiwyMDczMzg3NjkxLDUxNTIyOTY5MCw4ODcxNTk3NDEsLTk3Nz
-Q1NjQyNiw4MTczMTAwMzYsMzM2NDA3Nzk3LC0yMDA0MzQwNTks
-LTE4Nzc1OTUyNzVdfQ==
+eyJoaXN0b3J5IjpbLTEzODk1NzQ1ODQsLTgzNjMwODM3NiwxNz
+A2Mjc1ODM2LC0xOTkzMTYzNzUxLDg2Njc4MTc1Niw0MjU4NDcw
+MDgsLTQ5ODA3Nzc4MiwyMDczMzg3NjkxLDUxNTIyOTY5MCw4OD
+cxNTk3NDEsLTk3NzQ1NjQyNiw4MTczMTAwMzYsMzM2NDA3Nzk3
+LC0yMDA0MzQwNTksLTE4Nzc1OTUyNzVdfQ==
 -->
