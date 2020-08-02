@@ -7,7 +7,7 @@ Ramstack is a collection of guidelines to build a full stack for web and natives
  - ***Availability***:  The app is capable of overcoming faults in the stack and keep functioning, eventually returning to a consistent state. 
  - ***Maintainability***: Fixing bugs and adding new features should be easy. Developers can use any tool they prefer and it's easy to adapt to changing business requirements.
 
-The stack as a whole aims to be ***anti-fragile***: an increase in load will be met with an increase in reliability and availability, faults are used to adapt robustness thresholds, machine learning 
+The stack as a whole aims to be ***anti-fragile***: an increase in load will be met with an increase in reliability and availability, faults are used to adapt robustness thresholds, big data is the center of future business decisions.
 
 ## Why RAMStack?
 
@@ -17,7 +17,7 @@ The stack as a whole aims to be ***anti-fragile***: an increase in load will be 
 
 ### Business speed is crucial
 
-
+### Machine learning to the rescue
 
 ## Where are the libraries?
 
@@ -35,7 +35,7 @@ The stack as a whole aims to be ***anti-fragile***: an increase in load will be 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTcyMTM0LC05Nzc0NTY0MjYsODE3Mz
+eyJoaXN0b3J5IjpbODg3MTU5NzQxLC05Nzc0NTY0MjYsODE3Mz
 EwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NTk1Mjc1
 XX0=
 -->
