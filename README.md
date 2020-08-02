@@ -1,7 +1,8 @@
 # RAMStack
 ## Introduction
-Ramstack is a collection of guidelines to build a  web and natives apps, covering the f.
+Ramstack is a collection of guidelines to build a full stack for web and natives apps, with the following charateristics:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NTMwOTUyNywtMjAwNDM0MDU5LC0xOD
-c3NTk1Mjc1XX0=
+eyJoaXN0b3J5IjpbLTEwOTEwNTU1MDQsLTIwMDQzNDA1OSwtMT
+g3NzU5NTI3NV19
 -->
