@@ -33,9 +33,11 @@ The stack as a whole aims to be ***anti-fragile***: an increase in load will be 
 
 ## Hybrid Cloud
 
+### C10M problem with 300 euros
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3MTU5NzQxLC05Nzc0NTY0MjYsODE3Mz
-EwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NTk1Mjc1
-XX0=
+eyJoaXN0b3J5IjpbLTIxNDAxNzkyMzcsODg3MTU5NzQxLC05Nz
+c0NTY0MjYsODE3MzEwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5
+LC0xODc3NTk1Mjc1XX0=
 -->
