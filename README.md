@@ -49,7 +49,11 @@ Scalability and performance
 
 ## Frontend
 
-### Smart Client
+### Smart Client, Fetch patching and HTTP 304
+
+The traditional way to scale web services is to use load-balancers and caches. Typically once a single server can't handle anymore the work, the domain will be rerouted to a service whose sole purpose is to spread the load, locally or over the network. Common examples are Nginx in a reverse proxy configuration, HAproxy, or dedicated hardware solutions.
+
+My idea is to move the load-balancer inside the client, hence the  _smart client_  name, exploiting Service Worker capabilities to patch fetch requests and reroute them to cache, if possible, or to the best endpoint according to latency and load. Here's a flow diagram of how requests are handled:
 
 ### Render Stack
 
@@ -77,8 +81,8 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjY3MDIyNiwtNDk4MDc3NzgyLDIwNz
-MzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0MSwtOTc3NDU2NDI2
-LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMDQzNDA1OSwtMTg3Nz
-U5NTI3NV19
+eyJoaXN0b3J5IjpbOTMyNTc5MDk4LC00OTgwNzc3ODIsMjA3Mz
+M4NzY5MSw1MTUyMjk2OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYs
+ODE3MzEwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NT
+k1Mjc1XX0=
 -->
