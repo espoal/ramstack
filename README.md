@@ -9,7 +9,7 @@ Ramstack is a collection of guidelines to build a full stack for web and natives
 
 The stack as a whole aims to be ***anti-fragile***: an increase in load will be met with an increase in reliability and availability, faults are used to adapt robustness thresholds, big data is at the center of future business decisions.
 
-One of the main ideas behind this stack is to move the load balancer and part of the cache in the client, thus creating a ***smart client***, decoupled from the frontend, to provide an offline-first experience and optimal performance. This can be seen as an extension of Google's PWA guidelines.
+One of the main ideas behind this stack is to move the load balancer and part of the cache in the client, thus creating a ***smart client***, decoupled from the frontend, to provide an offline-first experience and optimal performance. This can be seen as an evolution and extension of Google's PWA guidelines.
 
 ## Why RAMStack?
 
@@ -121,9 +121,9 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTE5MDM3MSwxNzA2Mjc1ODM2LC0xOT
-kzMTYzNzUxLDg2Njc4MTc1Niw0MjU4NDcwMDgsLTQ5ODA3Nzc4
-MiwyMDczMzg3NjkxLDUxNTIyOTY5MCw4ODcxNTk3NDEsLTk3Nz
-Q1NjQyNiw4MTczMTAwMzYsMzM2NDA3Nzk3LC0yMDA0MzQwNTks
-LTE4Nzc1OTUyNzVdfQ==
+eyJoaXN0b3J5IjpbLTExOTM0ODcxMTUsMTcwNjI3NTgzNiwtMT
+k5MzE2Mzc1MSw4NjY3ODE3NTYsNDI1ODQ3MDA4LC00OTgwNzc3
+ODIsMjA3MzM4NzY5MSw1MTUyMjk2OTAsODg3MTU5NzQxLC05Nz
+c0NTY0MjYsODE3MzEwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5
+LC0xODc3NTk1Mjc1XX0=
 -->
