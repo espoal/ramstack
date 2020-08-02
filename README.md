@@ -36,7 +36,7 @@ How so? 0.1% unplanned downtime in a month are 43 minutes. Maybe your average re
 
 Imagine if these 43 minutes were right after the TV commercial your company decided to air, as a test. Thousands of new potential customers will never try your services again, because their first exposure has been abysmal.
 
-Having predictable performance is a feature, that need to be tested against in the CI/CD pipeline, to spot early regression that should be considered bugs. Being fast on the other  
+Having predictable performance is a must, that need to be tested against in the CI/CD pipeline, to spot early regression that should be considered bugs. On the other hand being fast will drive your conversion rates up,  
 
 ### Availability means trust
 
@@ -141,10 +141,10 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTU2Mjk1OTYsMTAzNzM0MjY5NywyOT
-c3OTE4NTIsLTQzMTY2MDA4OCwtODM2MzA4Mzc2LDE3MDYyNzU4
-MzYsLTE5OTMxNjM3NTEsODY2NzgxNzU2LDQyNTg0NzAwOCwtND
-k4MDc3NzgyLDIwNzMzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0
-MSwtOTc3NDU2NDI2LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMD
-QzNDA1OSwtMTg3NzU5NTI3NV19
+eyJoaXN0b3J5IjpbMTQ1NDIxNzE1NywxMDM3MzQyNjk3LDI5Nz
+c5MTg1MiwtNDMxNjYwMDg4LC04MzYzMDgzNzYsMTcwNjI3NTgz
+NiwtMTk5MzE2Mzc1MSw4NjY3ODE3NTYsNDI1ODQ3MDA4LC00OT
+gwNzc3ODIsMjA3MzM4NzY5MSw1MTUyMjk2OTAsODg3MTU5NzQx
+LC05Nzc0NTY0MjYsODE3MzEwMDM2LDMzNjQwNzc5NywtMjAwND
+M0MDU5LC0xODc3NTk1Mjc1XX0=
 -->
