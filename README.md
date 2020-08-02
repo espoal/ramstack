@@ -37,9 +37,11 @@ JQuery was king, JS fatigue
 
 ### Node.JS and Rust
 
-
+rapid prototyping vs performance and safety
 
 ### Javascript and React
+
+The frontend bread and butter
 
 ### MongoDB and Redis
 
@@ -53,7 +55,7 @@ JQuery was king, JS fatigue
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDc4MDM4MywyMDczMzg3NjkxLDUxNT
-IyOTY5MCw4ODcxNTk3NDEsLTk3NzQ1NjQyNiw4MTczMTAwMzYs
-MzM2NDA3Nzk3LC0yMDA0MzQwNTksLTE4Nzc1OTUyNzVdfQ==
+eyJoaXN0b3J5IjpbNDY4NjI4NjE0LDIwNzMzODc2OTEsNTE1Mj
+I5NjkwLDg4NzE1OTc0MSwtOTc3NDU2NDI2LDgxNzMxMDAzNiwz
+MzY0MDc3OTcsLTIwMDQzNDA1OSwtMTg3NzU5NTI3NV19
 -->
