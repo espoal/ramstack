@@ -49,7 +49,13 @@ Scalability and performance
 
 ## Frontend
 
+### Smart Client
+
+### Render Stack
+
 ## Backend
+
+
 
 ## Hybrid Cloud
 
@@ -71,8 +77,8 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDcwMzE4NCwtNDk4MDc3NzgyLDIwNz
-MzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0MSwtOTc3NDU2NDI2
-LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMDQzNDA1OSwtMTg3Nz
-U5NTI3NV19
+eyJoaXN0b3J5IjpbODQ1MTcyODU0LC00OTgwNzc3ODIsMjA3Mz
+M4NzY5MSw1MTUyMjk2OTAsODg3MTU5NzQxLC05Nzc0NTY0MjYs
+ODE3MzEwMDM2LDMzNjQwNzc5NywtMjAwNDM0MDU5LC0xODc3NT
+k1Mjc1XX0=
 -->
