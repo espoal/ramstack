@@ -53,6 +53,14 @@ Scalability and performance
 
 ## Hybrid Cloud
 
+### Bare metal or PaaS?
+
+One common question that often comes up when architecting the backend: Should we use bare metal servers or a PaaS provider?  
+
+A PaaS provider like AWS can significantly reduce time to market, tie the cost to actual usage and allow to delegate a large portion of system maintenance. On the other hand this comes at a high price point, and a skilled linux engineer is still required to manage everything.  
+
+A good compromise is to use a hybrid cloud approach, where we identify a baseline load to be served from bare metal servers, while PaaS is used to meet load spikes, which usually are predictable:
+
 ### Scaling up or out?
 
 When I started working on scaling backends, around 7 years ago, the typical server specs were: 4 core / 8 threads, 250-500 mbit/s bandwidth, 32 GB of RAM, 2x SATA SSD. The x86 market has stagnated a bit in the meanwhile, with moderate IPC increases year over year and a stable core count. Thankfully AMD recently introduced a competitive architecture, and one now can find hexa-core and octa-core servers in the same price bracket. The average NIC today is 1 Gigabit/s, with higher capacity available for a premium. SSDs on the other hand made huge leaps, especially with the switch to PCIe interfaces.  
@@ -63,7 +71,8 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODA3Nzc4MiwyMDczMzg3NjkxLDUxNT
-IyOTY5MCw4ODcxNTk3NDEsLTk3NzQ1NjQyNiw4MTczMTAwMzYs
-MzM2NDA3Nzk3LC0yMDA0MzQwNTksLTE4Nzc1OTUyNzVdfQ==
+eyJoaXN0b3J5IjpbMTA1MDcwMzE4NCwtNDk4MDc3NzgyLDIwNz
+MzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0MSwtOTc3NDU2NDI2
+LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMDQzNDA1OSwtMTg3Nz
+U5NTI3NV19
 -->
