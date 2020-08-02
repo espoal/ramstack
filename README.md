@@ -55,7 +55,7 @@ The traditional way to scale web services is to use load-balancers and caches. T
 
 My idea is to move the load-balancer inside the client, hence the  _smart client_  name, exploiting Service Worker capabilities to patch fetch requests and reroute them to cache, if possible, or to the best endpoint according to latency and load. Here's a flow diagram of how requests are handled:
 
-
+![The Fetch Flow](https://raw.githubusercontent.com/espoal/ramstack/master/assets/fetch_flow.svg)
 
 
 
@@ -115,8 +115,8 @@ In general it's rarely worthwhile to scale up, as hardware prices grow much fast
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2NzgxNzU2LDQyNTg0NzAwOCwtNDk4MD
-c3NzgyLDIwNzMzODc2OTEsNTE1MjI5NjkwLDg4NzE1OTc0MSwt
-OTc3NDU2NDI2LDgxNzMxMDAzNiwzMzY0MDc3OTcsLTIwMDQzND
-A1OSwtMTg3NzU5NTI3NV19
+eyJoaXN0b3J5IjpbLTE5OTMxNjM3NTEsODY2NzgxNzU2LDQyNT
+g0NzAwOCwtNDk4MDc3NzgyLDIwNzMzODc2OTEsNTE1MjI5Njkw
+LDg4NzE1OTc0MSwtOTc3NDU2NDI2LDgxNzMxMDAzNiwzMzY0MD
+c3OTcsLTIwMDQzNDA1OSwtMTg3NzU5NTI3NV19
 -->
